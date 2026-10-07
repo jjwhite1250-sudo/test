@@ -1,0 +1,6 @@
+{
+  "columns": ["id", "initial", "cap", "turn_income", "victory_income", "army_capacity", "basis"],
+  "rows": [
+    {"id": "requisition", "initial": 300, "cap": 2000, "turn_income": 50, "victory_income": 100, "army_capacity": 20, "basis": "provisional_balance"}
+  ]
+}

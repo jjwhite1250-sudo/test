@@ -1,0 +1,10 @@
+{
+  "columns": ["id", "api", "purpose", "evidence"],
+  "rows": [
+    {"id": "first_tick", "api": "cm:add_first_tick_callback(callback)", "purpose": "Initialize on the first campaign tick after verifying host campaign, human faction and single-player mode", "evidence": "WH3/campaign/campaign_manager.html#function:campaign_manager:add_first_tick_callback"},
+    {"id": "spawn_location", "api": "cm:find_valid_spawn_location_for_character_from_settlement(faction_key, region_key, false, true, preferred_distance)", "purpose": "Resolve a valid land location in the candidate region; reject unavailable coordinates", "evidence": "WH3/campaign/episodic_scripting.html#function:episodic_scripting:find_valid_spawn_location_for_character_from_settlement"},
+    {"id": "spawn_army", "api": "cm:create_force_with_general(faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, make_faction_leader, success_callback, force_diplomatic_discovery)", "purpose": "Create Angron's invasion army; mark arrival complete only in its success callback", "evidence": "WH3/campaign/campaign_manager.html#function:campaign_manager:create_force_with_general"},
+    {"id": "save_state", "api": "cm:set_saved_value(key, value)", "purpose": "Persist campaign state; pending engine operations require reconciliation on reload", "evidence": "WH3/campaign/campaign_manager.html#function:campaign_manager:set_saved_value"},
+    {"id": "reinforce", "api": "cm:grant_unit_to_character(character_lookup, unit_key)", "purpose": "Grant an approved unit only after checking army capacity, recruitment rules and resources; verify engine result before confirming spend", "evidence": "WH3/campaign/episodic_scripting.html#function:episodic_scripting:grant_unit_to_character"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "columns": ["id", "value", "basis"],
+  "rows": [
+    {"id": "host", "value": "total-war-warhammer-3", "basis": "user"},
+    {"id": "campaign", "value": "Immortal Empires", "basis": "user"},
+    {"id": "faction", "value": "World Eaters", "basis": "user"},
+    {"id": "leader", "value": "Angron", "basis": "user"},
+    {"id": "mode", "value": "single_player", "basis": "user"},
+    {"id": "arrival", "value": "random_eligible_region_portal", "basis": "user"},
+    {"id": "companion", "value": "Dawn of War Anniversary Edition", "basis": "user"},
+    {"id": "store", "value": "Steam", "basis": "user"},
+    {"id": "opening_objective", "value": "Capture the settlement in the portal arrival region", "basis": "initial_design"}
+  ]
+}

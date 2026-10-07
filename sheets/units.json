@@ -1,0 +1,7 @@
+{
+  "columns": ["id", "display_name", "cost", "starting_count", "asset_requirement", "basis"],
+  "rows": [
+    {"id": "berzerkers", "display_name": "Khorne Berzerkers", "cost": 150, "starting_count": 4, "asset_requirement": "Inspect owned Dawn of War archives for a suitable Chaos infantry model, textures and voices; conversion required", "basis": "provisional_roster"},
+    {"id": "cultists", "display_name": "Cultists", "cost": 75, "starting_count": 2, "asset_requirement": "Inspect owned Dawn of War archives for cultist models, textures and voices; conversion required", "basis": "provisional_roster"}
+  ]
+}

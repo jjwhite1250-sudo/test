@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+build/
+local/
+*.pack
+*.sga
+*.rgd
+*.whm
+*.whe
+*.rigid_model_v2
+*.dds
+*.wem
+

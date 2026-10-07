@@ -1,0 +1,12 @@
+{
+  "columns": ["id", "status", "requirement", "evidence_needed"],
+  "rows": [
+    {"id": "game_installations", "status": "blocked", "requirement": "Access both owned Steam installations and record installed builds", "evidence_needed": "Run the read-only Steam inspector on the player's PC"},
+    {"id": "playable_faction", "status": "blocked", "requirement": "Add World Eaters to Immortal Empires faction selection without replacing an existing faction", "evidence_needed": "Installed database schemas, campaign setup route and a successful new campaign launch"},
+    {"id": "angron", "status": "blocked", "requirement": "Angron character, skills, campaign portrait and compatible battle art", "evidence_needed": "A locally tested asset solution; Angron is not supplied by Dawn of War Anniversary Edition"},
+    {"id": "dow_assets", "status": "blocked", "requirement": "Convert actual owned Dawn of War models, textures and voices locally", "evidence_needed": "Archive inventory plus successful model, skeleton, animation and audio conversion tests; no game files in distributable"},
+    {"id": "campaign_adapter", "status": "blocked", "requirement": "Bind portal, resource UI, recruitment, rewards, objectives and save/load to Warhammer III", "evidence_needed": "Verified database keys, event payloads and in-game script results against the installed build"},
+    {"id": "melty_install", "status": "blocked", "requirement": "Validate a one-click local conversion, install and launch recipe", "evidence_needed": "Melty game_info, package inspection, recipe validation and successful one_click_check"},
+    {"id": "gameplay_test", "status": "blocked", "requirement": "Test solo Immortal Empires arrival, conquest, reinforcement and reload; capture real gameplay", "evidence_needed": "In-game logs and screenshot from the same tested build"}
+  ]
+}
